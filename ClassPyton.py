@@ -7,3 +7,5 @@ class Rectangle:
         return 2 * (self.length + self.width)
  
      def calculate_area(self):
+         return self.length * self.width
+ 
