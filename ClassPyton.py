@@ -11,4 +11,10 @@ class Rectangle:
  
       def __str__(self):
           return f"rectangle, {self.length} cm long, and {self.width} cm wide"
- 
+   
+    
+    rect = Rectangle(3, 2)
+    
+    print(rect)
+    print(f"Keliling: {rect.calculate_circumference()} cm")
+    print(f"Luas: {rect.calculate_area()} cm²")
